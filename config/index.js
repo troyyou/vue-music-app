@@ -10,7 +10,19 @@ module.exports = {
     // Paths
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
-    proxyTable: {},
+    proxyTable: {
+      // "/api/getDiscList": {
+      //   target: "https://u.y.qq.com/cgi-bin/musicu.fcg",
+      //   bypass: function (req, res, proxyOptions) {
+      //     req.headers.referer = "https://c.y.qq.com"
+      //     req.headers.host = "c.y.qq.com"
+      //   },
+      //   changeOrigin: true,
+      //   pathRewriter: {
+      //     "^/api/getDiscList": ""
+      //   }
+      // }
+    },
 
     // Various Dev Server settings
     host: 'localhost', // can be overwritten by process.env.HOST

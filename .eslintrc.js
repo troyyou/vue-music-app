@@ -55,6 +55,11 @@ module.exports = {
     ],
     "vue/max-attributes-per-line": ["error", {
       "singleline": 8
-    }]
+    }],
+    "vue/attributes-order": ["error", {
+      "order": "never"
+    }],
+    "vue/require-v-for-key": "off",
+    "vue/require-default-prop": "off"
   }
 }
